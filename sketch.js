@@ -9,7 +9,7 @@ let f = 0.0
 let writer;
 
 function setup() {
-  createCanvas(1600,1600);
+  createCanvas(800,800);
    writer=createWriter('newFile.txt');
   numIters = 20;
   spc = width / numIters;
