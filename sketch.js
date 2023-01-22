@@ -9,7 +9,7 @@ let f = 0.0
 let writer;
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(1600,1600);
    writer=createWriter('newFile.txt');
   numIters = 20;
   spc = width / numIters;
@@ -62,7 +62,7 @@ function draw() {
     block.line(2, k*sqrt(3)/4 * a+1, spc-2 , k*sqrt(3)/4 * a+1);
     
   }
-//   f += 0.01
+   f += 0.01
   
   
 }
