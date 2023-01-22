@@ -62,7 +62,7 @@ function draw() {
     block.line(2, k*sqrt(3)/4 * a+1, spc-2 , k*sqrt(3)/4 * a+1);
     
   }
-   f += 0.01
+   //f += 0.01
   
   
 }
